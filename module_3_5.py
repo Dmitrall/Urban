@@ -13,4 +13,4 @@ def get_multiplied_digits (number):
 
 print(get_multiplied_digits(40203))
 print(get_multiplied_digits(402030))
-print(get_multiplied_digits(0402030)) #по словам преподавателя ноль должен убираться, почему ошибка, я не могу понять. Консультации не смог добиться
+print(get_multiplied_digits('0402030')) 
