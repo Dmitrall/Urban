@@ -10,7 +10,6 @@ def show_path_info(directory):
             formatted_time = strftime("%d.%m.%Y %H:%M", localtime(filetime))
             filesize = getsize(filepath)
             parent_dir = dirname(filepath)
-            # parent_dir = root  # то же самое
             print(f'Обнаружен файл: {file},',
                   f'Путь: {filepath},',
                   f'Размер: {filesize} байт,',
